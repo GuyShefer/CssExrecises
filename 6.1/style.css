@@ -1,0 +1,17 @@
+#first {
+    border: 1px solid red;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+#second {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#third {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    box-shadow: 5px 5px 10px grey;
+}

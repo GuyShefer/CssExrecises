@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    background-color: DarkSlateGrey;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+button {
+    color: white;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 1%;
+    cursor: pointer;
+    border: none;
+}
+
+#register {
+    font-size: 24px;
+}
+
+#clear {
+    font-size: 18px;
+}
+
+#submit {
+    font-size: 12px;
+}
+
+.round button, .round-ghost button {
+    border-radius: 20px;
+}
+
+.flat #register {
+    background: #22dd22;
+}
+.flat #register:hover {
+    background: #1fc71f;
+}
+
+.flat #clear {
+    background: #ff0000;
+}
+.flat #clear:hover {
+    background: #e60000;
+}
+
+.flat #submit {
+    background: #0099ff;
+}
+.flat #submit:hover {
+    background: #008ae6;
+}
+
+.round #register {
+    background: #ff6600;
+}
+.round #register:hover {
+    background: #e65c00;
+}
+
+.round #clear {
+    background: #ffff1a;
+}
+.round #clear:hover {
+    background: #e6e600;
+}
+
+.round #submit {
+    background: #999966;
+}
+.round #submit:hover {
+    background: #8a8a5c;
+}
+
+.flat-ghost button, .round-ghost button {
+    background: DarkSlateGrey;
+}
+
+.flat-ghost #register {
+    border: 2px solid #ff6600;
+}
+.flat-ghost #register:hover {
+    background: #e65c00;
+}
+
+.flat-ghost #clear {
+    border: 2px solid #ffff1a;
+}
+.flat-ghost #clear:hover {
+    background: #e6e600;
+}
+
+.flat-ghost #submit {
+    border: 2px solid #999966;
+}
+.flat-ghost #submit:hover {
+    background: #8a8a5c;
+}
+
+/* //////////////////////////////// */
+
+.round-ghost #register {
+    border: 2px solid #ff6600;
+}
+.round-ghost #register:hover {
+    background: #e65c00;
+}
+
+.round-ghost #clear {
+    border: 2px solid #ffff1a;
+}
+.round-ghost #clear:hover {
+    background: #e6e600;
+}
+
+.round-ghost #submit {
+    border: 2px solid #999966;
+}
+.round-ghost #submit:hover {
+    background: #8a8a5c;
+}
