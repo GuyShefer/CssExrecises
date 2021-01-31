@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+  background: #e6eeff;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container .nav {
+    display: flex;
+}
+
+.flex-container .nav h3{
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #002066;
+}

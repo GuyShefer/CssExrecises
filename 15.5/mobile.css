@@ -1,0 +1,17 @@
+.flex-container {
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+.flex-container .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container .nav h3{
+    margin: 20px 0;
+}
