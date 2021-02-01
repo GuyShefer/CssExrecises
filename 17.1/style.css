@@ -1,3 +1,4 @@
 a::after {
-    content: " (https://www.appleseeds.org.il)"
+    content:  "(" attr(href) ")" ;
+
 }
