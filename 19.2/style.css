@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: gray;
+    position: relative;
+    left: 200px;
+}
+
+.box::before {
+    content: '';
+    width: 200px;
+    height: 200px;
+    background:lightskyblue;
+    position: absolute;
+    left: -200px;
+    
+}
+
+.box:hover::before {
+    animation: animation1 2s forwards ease-in-out;
+}
+
+@keyframes animation1 {
+    to {
+        left: 0;
+    }
+}
