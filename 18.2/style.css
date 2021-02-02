@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #4c6ca0;
+    --secondary-color:  #f4f4f4;
+    --light-color: #fff;
+}
+
+html, body{
+    height: 120%;
+    text-align: center;
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    overflow: auto;
+}
+
+header {
+    overflow: auto;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background: var(--primary-color);
+    border-radius: 5px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 25px;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+footer p {
+    color: var(--light-color);
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    color: var(--light-color);
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+}
+
+.navbar li a:hover {
+    background: var(--primary-color);
+    color:var(--secondary-color);
+}
+
+
+#my-img {
+    margin-bottom: 20px;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-right: 320px;
+    margin-left: 320px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+p {
+    margin: 0;
+}
+
+span {
+    font-size:18px;
+    font-style: oblique;
+}
+
+#main-second-header, #main-header {
+    color: CadetBlue;
+}
+
+#buttons {
+    margin: 2%;
+}
+
+#facebook {
+    border-radius: 20px;
+    font-size: 18px;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 1%;
+    cursor: pointer;
+    border: none;
+}
+
+#facebook a {
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+.buttons #facebook {
+    background: #0066ff;
+}
+.buttons #facebook:hover {
+    background: #005ce6;
+}
