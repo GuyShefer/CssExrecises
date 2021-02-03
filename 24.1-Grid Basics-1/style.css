@@ -1,0 +1,37 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem
+}
+
+.item {
+    height: 20px;
+    border: 1px solid black;
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.item:first-child {
+    grid-column: 1/span 2;
+    background: red;
+}
+
+.item:nth-child(2) {
+    grid-column: 3/span 2;
+    background: purple;
+}
+
+.item:nth-child(3) {
+    background: yellow;
+}
+
+.item:nth-child(4) {
+    grid-column: 2/span 3;
+    background: blue;
+}
+
+.item:last-child {
+    grid-column: 1/span 4;
+    background: green;
+}
