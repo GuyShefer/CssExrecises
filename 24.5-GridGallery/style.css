@@ -1,0 +1,117 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid {
+    height: 85vh;
+    width: 80vw;
+    display: grid;
+    grid-template-areas: 
+    'box1 box1 box2 box2 box2 box3 box4 box4'
+    'box1 box1 box2 box2 box2 box3 box4 box4'
+    'box5 box5 box2 box2 box2 box8 box8 box9'
+    'box5 box5 box6 box6 box7 box8 box8 box9'
+    'box5 box5 box6 box6 box10 box10 box10 box9'
+    'box11 box12 box12 box13 box10 box10 box10 box14'
+    'box11 box12 box12 box13 box10 box10 box10 box14'
+
+    ;
+    grid-gap: 1rem;
+}
+
+.grid div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+.box1 {
+    grid-area: box1;
+    background: url('/24.5-GridGallery/images/gal-1.jpeg') center center/cover;
+}
+.box2 {
+    grid-area: box2;
+    background: url('/24.5-GridGallery/images/gal-2.jpeg') center center/cover;
+}
+.box3 {
+    grid-area: box3;
+    background: url('/24.5-GridGallery/images/gal-3.jpeg') center center/cover;
+}
+.box4 {
+    grid-area: box4;
+    background: url('/24.5-GridGallery/images/gal-4.jpeg') center center/cover;
+}
+.box5 {
+    grid-area: box5;
+    background: url('/24.5-GridGallery/images/gal-5.jpeg') center center/cover;
+}
+.box6 {
+    grid-area: box6;
+    background: url('/24.5-GridGallery/images/gal-6.jpeg') center center/cover;
+}
+.box7 {
+    grid-area: box7;
+    background: url('/24.5-GridGallery/images/gal-7.jpeg') center center/cover;
+}
+.box8 {
+    grid-area: box8;
+    background: url('/24.5-GridGallery/images/gal-8.jpeg') center center/cover;
+}
+.box9 {
+    grid-area: box9;
+    background: url('/24.5-GridGallery/images/gal-9.jpeg') center center/cover;
+}
+.box10 {
+    grid-area: box10;
+    background: url('/24.5-GridGallery/images/gal-10.jpeg') center center/cover;
+}
+.box11 {
+    grid-area: box11;
+    background: url('/24.5-GridGallery/images/gal-11.jpeg') center center/cover;
+}
+.box12 {
+    grid-area: box12;
+    background: url('/24.5-GridGallery/images/gal-12.jpeg') center center/cover;
+}
+.box13 {
+    grid-area: box13;
+    background: url('/24.5-GridGallery/images/gal-13.jpeg') center center/cover;
+}
+.box14 {
+    grid-area: box14;
+    background: url('/24.5-GridGallery/images/gal-14.jpeg') center center/cover;
+}
+
+
+@media(max-width: 600px) {
+    .grid {
+        grid-template-areas: 
+        'box1'
+        'box2'
+        'box3'
+        'box4'
+        'box5'
+        'box6'
+        'box7'
+        'box8'
+        'box9'
+        'box10'
+        'box11'
+        'box12'
+        'box13'
+        'box14'
+        ;
+        width: 80%;
+    }
+    .grid div {
+        padding: 5rem;
+    }
+
+}
